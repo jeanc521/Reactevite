@@ -1,0 +1,186 @@
+
+.title{
+  background-color: red;
+}
+
+.s1{
+  background-color: white ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  
+}
+
+.s2{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(252, 252, 252); 
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: rgb(10, 8, 8);
+  padding: 10px;         
+  margin: 25px;  
+}
+
+.s2 input{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: -15px;
+  transition: all 200ms ease-in-out;
+  background-color: black;
+  color: white;
+}
+
+.s2 textarea{
+  border-radius: 10px;
+  width: 250px;
+  height: 80px;
+}
+
+.s2 button{
+  border-radius: 10px;
+  width: 180px;
+  height: 50px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  transition:  all 200ms ease-in-out;
+}
+
+.s2 button :hover{
+  transform: scale(1.1);
+  background-color: rgb(218, 24, 24);
+  color: black;
+}
+
+.card{
+background-color: rgb(0, 0, 0);
+color: white;
+width: 250px;
+height: auto;
+min-height: 225px;
+display: flex;
+justify-content: left;
+align-items: center;
+flex-direction: column;
+gap: 2px;
+border: 1px solid black ;
+border-radius: 5px;
+font-family: 'Courier New', Courier, monospace;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card img{
+  border-radius: 10px solid;
+}
+
+.card p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+@media (width >= 1000px){
+ 
+  .s2{
+    background-color: rgb(1, 1, 1);
+    color: white;
+    margin: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+
+ }
+
+ .s2 input{
+    background-color: transparent;
+    border: 0.5px solid ;
+    width: 250px;
+ }
+
+ .s2 button{
+  background-color: rgb(251, 251, 251);
+  border-radius: 999px;
+  width: 250px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  margin: 50px;
+  justify-content: right;
+  
+}
+
+
+.s2 textarea{
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+  background-color: rgb(191, 189, 189);
+}
+
+
+ .s1{
+  background-color: rgb(253, 253, 253);
+
+ }
+
+ .card{
+  width: 300px;
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+ }
+ 
+ 
+}
+@media (width >= 100px){
+  .card{
+   width: 300px;
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .s2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 200px fixed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ }
+
+ .s2 input{
+    background-color: transparent;
+    border: 0.5px solid ;
+    width: 250px;
+ }
+
+ .s2 button{
+  background-color: rgb(251, 251, 251);
+  border-radius: 999px;
+  width: 250px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  margin: 50px;
+  justify-content: right;
+  
+}
+
+
+.s2 textarea{
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+  background-color: rgb(191, 189, 189);
+}
+
+
+}

@@ -1,9 +1,29 @@
-import './menu.module.css'
+import style from './menu.module.css'
+
 export const Menu = (props) => {
     return(
-    <nav className='menu'>
-    <p><a href="#s1">{props.s1}</a>primeiro</p>
-    <p><a href="#s2">{props.s2}</a>segundo</p> 
-    <p><a href="#s3">{props.s3}</a>terceiro</p>
-     </nav>
-    )}
+            // <nav className={style.navBar}>
+            //     <p><a href="#s1">{props.option01}</a></p>
+            //     <p><a href="#s2">{props.option02}</a></p>
+            //     <p><a href={'/contact'}>{props.option03}</a></p>
+            // </nav>
+            <nav className={`navbar navbar-scroll-behavior  navbar-fixed navbar-expand-lg navbar-dark bg-dark ${style.navBar}` }>
+  <div className="container-fluid">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
+        <a className="nav-link active"  href={'/'}>{props.option01}</a>
+        <a className="nav-link" href="#s2">{props.option02}</a>
+        <a className="nav-link" href={'/contact'}>{props.option03}</a>
+        <a className="nav-link" href={'/calcs'}>{props.option04}</a>
+        <a className="nav-link" href={'/media'}>{props.option05}</a>
+      </div>
+      </div>
+  </div>
+</nav>
+
+
+    )
+}
