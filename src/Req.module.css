@@ -1,0 +1,19 @@
+.wrapPage{
+    background-color: black;
+    color: white;
+    padding-top: 1vh;
+}
+
+.wrapCards{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleName{
+    width: 100px;
+    text-align: center;
+}

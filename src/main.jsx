@@ -16,6 +16,7 @@ import App from './App.jsx'
 import Contact from './Contact.jsx'
 import Calcs  from './Calcs.jsx';
 import Media from './Media.jsx';
+import Req from './Req.jsx';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/media",
     element: <Media />,
+  },
+  {
+    path: "/requisicao",
+    element:  <Req />,
   },
 ]);
 
