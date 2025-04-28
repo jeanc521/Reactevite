@@ -17,6 +17,7 @@ import Contact from './Contact.jsx'
 import Calcs  from './Calcs.jsx';
 import Media from './Media.jsx';
 import Req from './Req.jsx';
+import ModalInfo from './components/modalinfo.jsx';
 
 
 const router = createBrowserRouter([
